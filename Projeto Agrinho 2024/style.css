@@ -1,0 +1,35 @@
+header{
+    background-color: beige;
+    color: green;
+    text-align: center;
+}
+body{
+    background-color: beige;
+
+}
+img{
+    width: 400px;
+}
+.botao{
+    font-family: "chakra petch", sans-serif;
+    background-color: rgb(100, 60, 32);
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    
+}
+.botoes{
+    display: block;
+}
+@media screen and (min-width: 768px){
+    .botoes{
+        display: flex;
+    }
+    .botao:first-child{
+        
+    }
+}
